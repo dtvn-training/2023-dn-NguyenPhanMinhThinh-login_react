@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    // font-family: "CustomFont";
+}
+
+// @font-face {
+//     font-family: "CustomFont";
+//     src: url("../fonts/RolexLight.woff2");
+// }
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover {
+    background-color: white;
+    width: 25em;
+    height: 25em;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 1em 1.550em rgb(87, 86, 86);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h1 {
+    margin-top: 1em;
+}
+
+.alt-login {
+    margin-top: 1.5em;
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alt-login div {
+    width: 45%;
+    height: 90%;
+    border-radius: 0.25em;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.google {
+    background-color: #EA4336;
+    color: white;
+}
+
+.facebook {
+    background-color: #4795FF;
+    color: white;
+}
+
+input {
+    margin-top: 1.5em;
+    border: 0.15em solid #6A7A8F;
+    height: 4em;
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: left;
+    padding: 1.5em
+}
+
+.login-btn {
+    border: none;
+    margin-top: 2em;
+    border-radius: 0.25em;
+    width: 80%;
+    height: 3em;
+    background-color: #468FAF;
+    color: white;
+    cursor: pointer;
+}
