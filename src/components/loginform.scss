@@ -65,15 +65,35 @@ h1 {
     color: white;
 }
 
-input {
+.login-input {
+    display: relative;
     margin-top: 1.5em;
-    border: 0.15em solid #6A7A8F;
     height: 4em;
     width: 80%;
+}
+
+.login-input input {
+    border: 0.15em solid #6A7A8F;
+    height: 90%;
+    width: 100%;
     border-radius: 0.25em;
     text-align: left;
     padding: 1.5em
 }
+
+.login-input span {
+    margin-top: 20px;
+    color: red;
+}
+
+.login-input span .show {
+    display: none;
+}
+
+.login-input span .hide {
+    display: block;
+}
+
 
 .login-btn {
     border: none;
